@@ -1,0 +1,90 @@
+html{
+  background-color: rgb(30, 30, 30);
+  font-family: sans-serif;
+}
+
+.btn{
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+input{
+  width: 70%;
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+
+.container{
+  margin:100px auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(49, 49, 255);
+  padding: 1px 20px 20px 20px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.username div h1{
+  font-size: 20px;
+}
+
+.username div img{
+  width: 20px;
+  border: 1px solid black;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.name{
+  border: 1px solid black;
+  padding: 10px;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;align-items: center;justify-content: space-between;
+  width: 100%;
+  /* gap: 20px; */
+}
+
+.icon_div{
+  display: flex;
+  gap: 10px;
+}
+
+.del{
+  background-color: red;
+  color: white;
+  width: 60%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.container_child{
+  display: flex;
+  width: 100%;
+  align-items: center;justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding:0px  10px 10px 10px;
+  margin-top: -20px;
+}
+
+.username{
+  width: 90%;
+  margin-right: 30px;
+}
