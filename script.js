@@ -78,7 +78,7 @@ btn.addEventListener('click', () => {
             h1.textContent = edit;
         }
     });
+});
 del_all_btn.addEventListener('click', () => {
     username.remove()
-});
 });
