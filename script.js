@@ -40,7 +40,7 @@ btn.addEventListener('click', ()=>{
 */
 
 
-let username = document.querySelector('.username');
+let username = document.querySelector('.con');
 let btn = document.querySelector('.btn');
 let del_all_btn = document.querySelector('.del');
 let input = document.querySelector('input');
@@ -52,7 +52,6 @@ btn.addEventListener('click', () => {
         return;
     }
     let div = document.createElement('div');
-    let ol = document.createElement('ol');
     let li = document.createElement('li');
     let h1 = document.createElement('h1');
     let icon_div = document.createElement('div');
@@ -67,7 +66,8 @@ btn.addEventListener('click', () => {
     div.appendChild(h1);
     div.appendChild(icon_div);
     h1.textContent = value;
-    username.appendChild(div);
+    li.appendChild(div)
+    username.appendChild(li);
     input.value = '';
     del_icon.addEventListener('click', () => {
         div.remove();
