@@ -52,6 +52,8 @@ btn.addEventListener('click', () => {
         return;
     }
     let div = document.createElement('div');
+    let ol = document.createElement('ol');
+    let li = document.createElement('li');
     let h1 = document.createElement('h1');
     let icon_div = document.createElement('div');
     let edit_icon = document.createElement('img');
