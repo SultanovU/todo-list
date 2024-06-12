@@ -51,7 +51,7 @@ btn.addEventListener('click', () => {
     if (value === '') {
         return;
     }
-    // let div = document.createElement('div');
+    let div = document.createElement('div');
     let li = document.createElement('li');
     let h1 = document.createElement('h1');
     let icon_div = document.createElement('div');
@@ -63,10 +63,10 @@ btn.addEventListener('click', () => {
     del_icon.src = 'https://cdn-icons-png.flaticon.com/512/1345/1345874.png';
     icon_div.appendChild(edit_icon);
     icon_div.appendChild(del_icon);
-    li.appendChild(h1);
-    li.appendChild(icon_div);
+    div.appendChild(h1);
+    div.appendChild(icon_div);
     h1.textContent = value;
-    // li.appendChild(div)
+    li.appendChild(div)
     username.appendChild(li);
     input.value = '';
     del_icon.addEventListener('click', () => {
