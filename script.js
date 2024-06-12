@@ -66,7 +66,7 @@ btn.addEventListener('click', () => {
     li.appendChild(h1);
     li.appendChild(icon_div);
     h1.textContent = value;
-    li.appendChild(div)
+    // li.appendChild(div)
     username.appendChild(li);
     input.value = '';
     del_icon.addEventListener('click', () => {
